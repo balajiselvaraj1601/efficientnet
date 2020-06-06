@@ -469,7 +469,7 @@ def EfficientNetB0(
         **kwargs
 ):
     return EfficientNet(
-        1.0, 1.0, 224, 0.2,
+        1.0, 1.0, 224, 0.,
         model_name='efficientnet-b0',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
@@ -488,7 +488,7 @@ def EfficientNetB1(
         **kwargs
 ):
     return EfficientNet(
-        1.0, 1.1, 240, 0.2,
+        1.0, 1.1, 240, 0.,
         model_name='efficientnet-b1',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
@@ -505,7 +505,7 @@ def EfficientNetB2(include_top=True,
                    classes=1000,
                    **kwargs):
     return EfficientNet(
-        1.1, 1.2, 260, 0.3,
+        1.1, 1.2, 260, 0.,
         model_name='efficientnet-b2',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
@@ -522,7 +522,7 @@ def EfficientNetB3(include_top=True,
                    classes=1000,
                    **kwargs):
     return EfficientNet(
-        1.2, 1.4, 300, 0.3,
+        1.2, 1.4, 300, 0.,
         model_name='efficientnet-b3',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
@@ -541,7 +541,7 @@ def EfficientNetB4(
         **kwargs
 ):
     return EfficientNet(
-        1.4, 1.8, 380, 0.4,
+        1.4, 1.8, 380, 0.,
         model_name='efficientnet-b4',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
@@ -560,7 +560,7 @@ def EfficientNetB5(
         **kwargs
 ):
     return EfficientNet(
-        1.6, 2.2, 456, 0.4,
+        1.6, 2.2, 456, 0.,
         model_name='efficientnet-b5',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
@@ -579,7 +579,7 @@ def EfficientNetB6(
         **kwargs
 ):
     return EfficientNet(
-        1.8, 2.6, 528, 0.5,
+        1.8, 2.6, 528, 0.,
         model_name='efficientnet-b6',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
@@ -598,7 +598,7 @@ def EfficientNetB7(
         **kwargs
 ):
     return EfficientNet(
-        2.0, 3.1, 600, 0.5,
+        2.0, 3.1, 600, 0.,
         model_name='efficientnet-b7',
         include_top=include_top, weights=weights,
         input_tensor=input_tensor, input_shape=input_shape,
